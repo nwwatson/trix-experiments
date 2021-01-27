@@ -1,0 +1,32 @@
+{
+  "name": "trix-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwwatson/trix-experiments.git"
+  },
+  "author": "Nicholas W. Watson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwwatson/trix-experiments/issues"
+  },
+  "homepage": "https://github.com/nwwatson/trix-experiments#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "chokidar": "^3.4.1",
+    "express": "^4.17.1",
+    "stimulus": "^2.0.0",
+    "tributejs": "^5.1.3",
+    "trix": "^1.3.1",
+    "webpack": "^4.43.0",
+    "webpack-dev-middleware": "^3.7.2"
+  }
+}
