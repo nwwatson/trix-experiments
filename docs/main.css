@@ -1,0 +1,59 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  background-color: #FBF7F0;
+}
+
+.container {
+  max-width: 45em;
+  margin: 0 auto;
+}
+
+div.editor-container {
+  background-color: #fff;
+  padding: 2em;
+  box-shadow: -0.4rem 0.4rem 2rem rgb(0 0 0 / 10%);
+  border-top-left-radius: 0.3rem;
+}
+
+// Trix attachment formatting
+.attachment--preview {
+  margin: 0.6em 0;
+  text-align: center;
+  width: 100%;
+}
+.attachment {
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+// Tribute styles
+div.tribute-container {
+  border-radius: 4px;
+  border: 1px solid #000;
+  box-shadow: -0.4rem 0.4rem 2rem rgb(0 0 0 / 10%);
+}
+
+.tribute-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tribute-container li {
+  background: #fff;
+  padding: 0.2em 1em;
+  min-width: 15em;
+  max-width: 100%;
+}
+
+.tribute-container .highlight {
+  background: #1b6ac9;
+  color: #fff;
+}
+
+.tribute-container .highlight span {
+  font-weight: bold;
+}

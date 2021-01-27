@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="trix.css">
+  <link rel="stylesheet" href="main.css">
+
+  <script src="https://kit.fontawesome.com/1ad5ecf192.js" crossorigin="anonymous"></script>
+  <script src="bundle.js" async></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Tagging Example</h1>
+    <p>
+      To trigger tagging use the following triggers:
+      <ul>
+        <li><strong>p:</strong> People</li>
+        <li><strong>c:</strong> Companies</li>
+      </ul>
+    </p>
+    <div class="editor-container">
+      <form>
+        <input id="x" value="Editor content goes here" type="hidden" name="content">
+        <trix-editor input="x" data-controller="trix-tagging" data-trix-tagging-target="field"></trix-editor>
+      </form>
+    </div>
+  </div>
+</body>
